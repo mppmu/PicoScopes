@@ -5,5 +5,6 @@ __precompile__(true)
 module PicoScopes
 
 include("matv4.jl")
+include("picoscope_mat.jl")
 
 end # module
