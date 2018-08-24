@@ -1,9 +1,6 @@
-using PicoScopes
-@static if VERSION < v"0.7.0-DEV.2005"
-    using Base.Test
-else
-    using Test
-end
+# This file is a part of PicoScopes.jl, licensed under the MIT License (MIT).
 
-# write your own tests here
-@test 1 == 2
+import Compat.Test
+Test.@testset "Package PicoScopes" begin
+    # write your own tests here
+end

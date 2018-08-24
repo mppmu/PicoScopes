@@ -1,1 +1,1 @@
-# PicoScopes
+# PicoScopes.jl

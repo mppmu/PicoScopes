@@ -1,5 +1,7 @@
-module PicoScopes
+# This file is a part of PicoScopes.jl, licensed under the MIT License (MIT).
 
-# package code goes here
+__precompile__(true)
+
+module PicoScopes
 
 end # module
